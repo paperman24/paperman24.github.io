@@ -1,0 +1,73 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* navbar */
+  #nav-bar {
+    display: block;
+    border: none;
+  }
+  #nav-bar a:link {
+    display: flex;
+    border: none;
+    height: 48px;
+    padding: 0 48px;
+  }
+
+  /* Information */
+  #info {
+    display: block;
+  }
+
+  .target {
+    padding: 0 64px 16px 64px;
+  }
+
+  .personal-info {
+    padding: 0 64px 16px 64px;
+  }
+
+  /* Background */
+  #job-info .container {
+    grid-template-columns: 1fr;
+    padding: 0 48px;
+  }
+
+  /* Certificates */
+  #certificate .container {
+    grid-template-columns: 1fr;
+  }
+
+  .cc--dbi {
+    border: none;
+  }
+
+  .cc {
+    padding: 8px 24px;
+    margin: 8px 16px;
+    border-bottom: 1px solid #ff922b;
+  }
+
+  .cc:last-child {
+    border: none;
+  }
+
+  #certificate .container::after,
+  #certificate .container::before {
+    display: none;
+  }
+
+  /* Projects */
+  #project .container {
+    grid-template-columns: 1fr;
+    margin: 0 16px 48px;
+    padding: 0 64px;
+    gap: 32px;
+  }
+
+  /* Project Charter */
+  .prj-charter .container {
+    display: block;
+  }
+}

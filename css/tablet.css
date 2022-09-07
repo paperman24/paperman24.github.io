@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  /* General */
+  body {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  /* navbar */
+  .img-portrait {
+    display: none;
+  }
+
+  /* Information */
+  .target {
+    padding-left: 48px;
+  }
+
+  .personal-info {
+    padding-right: 32px;
+  }
+
+  #info h1 {
+    padding: 24px 0 24px 0;
+  }
+
+  /* Background */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: auto-fill;
+    grid-auto-flow: row dense;
+  }
+
+  .ji--edu {
+    grid-column-start: 2;*/
+  }
+
+  /* Certificates */
+  .cc {
+    display: block;
+    padding: 8px;
+    margin: 32px 0;
+  }
+  #certificate img {
+    width: 100%;
+  }
+
+  /* Project Charter */
+  .prj-charter .container {
+    grid-template-columns: 1fr;
+  }
+}
